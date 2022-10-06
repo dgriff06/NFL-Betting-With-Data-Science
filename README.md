@@ -50,9 +50,20 @@ All graphs not included here can be found in the Resources folder or XXXXX.ipynb
 
 **Random Forrest**
 
+Our Random Forest Model initially made predictions with 57% accuracy, so we started with a result that was better than random.
+Scalers - For the first iteration of this model, we applied sklearn's Standard Scaler. For the following iterations, we applied the Min Max and Robust Scalers. 
+Train Test Split adjustments - For the first iteration of our model applied Train Test Split with the default settings, and for subsequent tests we  tweaked the ratio to account for 70/30 and 75/25 splits.
+
  **Feature Importance**
 
+  By using using the random forest feature importance function we can determine what inputs allow our model to give the best output
+We dropped the unimportant features and re-ran the model to see if this would change our model score. 
+ The model score remained roughly the same. Dropping features is more important when you have a model with lots of rows, as dropping features that don't matter will speed up model efficiency. 
+
 **xgBoost**
+
+ Gradient boosted decision tree
+“Boosting” - improving a single weak model by combining it with a number of other weak models in order to generate a collectively strong model. The accuracy of this model was 54%. 
 
 
 ## *Conclusion*
