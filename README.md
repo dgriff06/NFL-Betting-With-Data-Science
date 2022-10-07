@@ -46,7 +46,7 @@ We then applied a `standard scaler` to our data frame to make sure that all valu
 
 ## *Visuals and Explanations*
 
-All graphs not included here can be found in the Resources folder or XXXXX.ipynb.
+All graphs not included here can be found in the Resources folder.
 
 **Random Forest**
 
