@@ -25,7 +25,7 @@ pip install x ; where 'x' is the package listed below:
 ## *Files Navigation*
 
 *Resources:* 
-Directory containing all images of plots created in Jupyter Notebook, and original csv data files can be located at - https://github.com/dgriff06/NFL-Betting-With-Data-Science/tree/main/Resources
+Directory containing all images of plots created in Jupyter Notebook, and original csv data files.
 
 *Team_Stats_Game_Stats_Combined_DF.ipynb* :
 Creating a CSV file to build our Dataframe from, using the sports reference API
