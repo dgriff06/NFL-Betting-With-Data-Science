@@ -25,7 +25,7 @@ pip install x ; where 'x' is the package listed below:
 ## *Files Navigation*
 
 *Resources:* 
-Directory containing all images of plots created in Jupyter Notebook, and original csv data files can be located at - https://github.com/dgriff06/NFL-Betting-With-Data-Science/tree/Development/Resources
+Directory containing all images of plots created in Jupyter Notebook, and original csv data files can be located at - https://github.com/dgriff06/NFL-Betting-With-Data-Science/tree/main/Resources
 
 *Team_Stats_Game_Stats_Combined_DF.ipynb:* 
 Data exploration investigating csv files and API connections, cleanup of dataframes, and final dataframes and all graphs.
@@ -46,7 +46,7 @@ We then applied a `standard scaler` to our data frame to make sure that all valu
 
 ## *Visuals and Explanations*
 
-All graphs not included here can be found in the Resources folder.
+All graphs not included here can be found in the Resources folder or in *RF_XGB_Sequential_Models.ipynb*.
 
 **Random Forest**
 
